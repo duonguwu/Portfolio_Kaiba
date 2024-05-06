@@ -2,12 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import pnj_prj from "../../Assets/Projects/pnj_prj.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/job_uel.jpg";
 
 function Projects() {
   return (
@@ -23,7 +17,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={pnj_prj}
+              imgPath="https://res.cloudinary.com/dupkiibar/image/upload/v1715013936/pnj_prj_wmu2hh.png"
               isBlog={false}
               title="Jewelry Detection App - Research AI"
               description="The application is capable of automatically recognizing and counting jewelry, aiming to save time during end-of-day inventory checks."
@@ -34,7 +28,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath="https://res.cloudinary.com/dupkiibar/image/upload/v1715013934/job_uel_rfkfzn.jpg"
               isBlog={false}
               title="The Navigator - Recommendation System"
               description="The website can assess your suitability for your profession through a test, thereby suggesting courses to help you improve and enhance your skills for the job."
@@ -45,46 +39,40 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath="https://res.cloudinary.com/dupkiibar/image/upload/v1715014243/Screenshot_2024-05-06_234918_k8rveu.png"
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"
+              title="MATVIET - E-commerce Website"
+              description="This website allows users to browse and purchase fashionable eyewear. Administrators can manage theirproducts, invoices, and customers efficiently."
+              ghLink="https://github.com/duonguwu/frontend_web_hk4"
+              demoLink="https://youtu.be/2xAH6ci-jEk?si=pnFiXdhiAMugQEbz"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath="https://res.cloudinary.com/dupkiibar/image/upload/v1715014320/Screenshot_2024-05-06_235138_f8ltfr.png"
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Shoes E-commerce Website"
+              description="This website allows users to browse and purchase fashionable sneakers. Administrators can manage their products, invoices, and customers efficiently."
+              ghLink="https://github.com/DiiKhanh/FE-Project-Sneaker-with-springboot"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath="https://res.cloudinary.com/dupkiibar/image/upload/v1714297596/au86l0qgczfympl5camw.jpg"
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Plate Number Recognition"
+              description="The Plate Number Recognition application utilizes the YOLOv8 model to detect the position of license plates in images. Once the plate's location is identified, the application employs the OpenCV library to crop the plate region and adjust its orientation to ensure proper alignment. Subsequently, Optical Character Recognition (OCR) techniques are applied to recognize the characters on the license plate, thereby extracting the identification information. By integrating these methods, the application is capable of automatically identifying license plates in images or videos, facilitating traffic monitoring, parking management, and related applications."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath="https://res.cloudinary.com/dupkiibar/image/upload/v1715015455/460c49df-ccb0-4e1c-be88-2aee9a68da44_ypzlb9.jpg"
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
+              title="Parking lot detection"
+              description="The Parking Lot Detection system leverages YOLOv8 to train on datasets sourced from Roboflow specifically tailored for parking lots. By training on these datasets, the system can effectively discern between occupied and vacant parking spaces within a parking lot. Additionally, it is capable of accurately counting the number of available parking spots in real-time. This functionality enables efficient parking management by providing insights into parking space availability, thereby optimizing parking resource utilization and enhancing user convenience."
             />
           </Col>
         </Row>

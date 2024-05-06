@@ -31,12 +31,23 @@ function Home() {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
-              />
+              <div
+                style={{
+                  width: "450px", // Điều chỉnh kích thước hình ảnh nếu cần
+                  height: "450px", // Điều chỉnh kích thước hình ảnh nếu cần
+                  borderRadius: "50%", // Làm cho hình ảnh trở thành hình tròn
+                  overflow: "hidden", // Ẩn phần dư thừa nếu có
+                  border: "4px solid #fff", // Thêm đường viền trắng xung quanh hình ảnh
+                  boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.1)", // Thêm hiệu ứng bóng đổ
+                }}
+              >
+                <img
+                  src="https://res.cloudinary.com/dupkiibar/image/upload/v1715013953/437748239_1160120338764996_7285090841705909716_n_yza4nn.jpg"
+                  alt="home pic"
+                  className="img-fluid"
+                  style={{ width: "100%", height: "100%", objectFit: "cover" }} // Đảm bảo hình ảnh bao phủ hoàn toàn vùng chứa
+                />
+              </div>
             </Col>
           </Row>
         </Container>

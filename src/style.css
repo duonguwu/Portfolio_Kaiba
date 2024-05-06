@@ -767,3 +767,119 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+.achievement-section {
+  padding-top: 90px; /* Đảm bảo khoảng cách từ trên cùng của container đến thanh navbar là 50px */
+  padding-bottom: 50px; /* Đảm bảo khoảng cách từ dưới cùng của container đến footer cũng là 50px */
+}
+
+.achievements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.achievement-card {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+}
+
+.achievement-image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.achievement-image {
+  width: 100%;/* Điều chỉnh chiều cao tối đa của ảnh */
+  border-radius: 8px;
+}
+
+.achievement-details h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.achievement-details p {
+  font-size: 16px;
+  color: #666;
+}
+.achievement-card {
+  width: 80%;
+  margin-bottom: 20px;
+  border-radius: 10px; /* Bo góc */
+  overflow: hidden; /* Đảm bảo hình ảnh không vượt ra ngoài card */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+  transition: transform 0.3s ease; /* Hiệu ứng khi hover */
+
+  /* Thêm padding cho khoảng cách giữa ảnh và nội dung */
+  padding: 10px;
+}
+
+.achievement-card:hover {
+  transform: translateY(-5px); /* Dịch chuyển lên khi hover */
+}
+
+.achievement-image {
+  width: 100%; /* Đảm bảo hình ảnh bao phủ toàn bộ khu vực */
+  border-radius: 10px; /* Bo góc */
+}
+
+.achievement-details {
+  margin-top: 10px; /* Khoảng cách giữa ảnh và văn bản */
+}
+
+.achievement-details h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.achievement-details p {
+  font-size: 14px;
+  color: #666; /* Màu văn bản */
+}
+.achievement-card-view {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.achievement-card-view:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.achievement-card-view .card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.achievement-card-view .card-body {
+  padding: 20px;
+}
+
+.achievement-card-view .card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.achievement-card-view .card-text {
+  font-size: 16px;
+  color: #555;
+}
+
+.achievement-card-view .btn {
+  margin-top: 15px;
+}
+
+.achievement-card-view .btn:hover {
+  background-color: #4caf50;
+  border-color: #4caf50;
+}
