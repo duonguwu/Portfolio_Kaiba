@@ -15,14 +15,17 @@ function AboutCard() {
               University of Information Technology - VNUHCM
             </span>
             <br />
-            I am an enthusiastic Information Systems student with a strong
-            passion for cutting-edge technology, particularly Artificial
-            Intelligence.
+            I'm Nguyen Duong, a third-year student majoring in Information
+            Systems at the University of Information Technology - Vietnam
+            National University, HCMC. Passionate about technology and its
+            applications, I'm on a journey to become a Backend Developer.
             <br />
-            My profound interest in technology extends into data-related fields,
-            particularly computer vision, where I've gained experience in
-            processing images. I specialize in object detection and recognition,
-            primarily utilizing YOLO series.
+            My proficiency in Backend technologies includes Python, Java, and
+            PHP along with hands-on experience in frameworks like Flask, Spring
+            and Laravel. On the Frontend side, I've built a strong foundation in
+            ReactJS enabling me to create robust server-side applications.
+            Deployed a server using Docker, Nginx, and Docker Compose on an
+            Ubuntu VPS.
             <br />
           </p>
 

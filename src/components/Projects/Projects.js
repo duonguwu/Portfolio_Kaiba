@@ -33,7 +33,7 @@ function Projects() {
               title="The Navigator - Recommendation System"
               description="The website can assess your suitability for your profession through a test, thereby suggesting courses to help you improve and enhance your skills for the job."
               // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://job-analysis-xi.vercel.app/"
+              demoLink="https://the-navigator-xi.vercel.app/"
             />
           </Col>
 
