@@ -17,12 +17,24 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath="https://res.cloudinary.com/dupkiibar/image/upload/v1716053451/LOGO4_mquwzq.png"
+              isBlog={false}
+              title="NeuralParking - Research AI"
+              description="Neural Parking is an application that utilizes Computer Vision to automate parking management. The
+system employs YOLOv8, an advanced real-time object detection algorithm, to recognize license plates,
+count empty parking spots, and detect fire hazards"
+              // ghLink="https://github.com/duonguwu/DetectionAppPNJ"
+              demoLink="http://neuralparking.online/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath="https://res.cloudinary.com/dupkiibar/image/upload/v1715013936/pnj_prj_wmu2hh.png"
               isBlog={false}
               title="Jewelry Detection App - Research AI"
               description="The application is capable of automatically recognizing and counting jewelry, aiming to save time during end-of-day inventory checks."
               ghLink="https://github.com/duonguwu/DetectionAppPNJ"
-              // demoLink="https://chatify-49.web.app/"
+              demoLink="http://neuralparking.online:5000/"
             />
           </Col>
 
