@@ -24,7 +24,7 @@ function Projects() {
 system employs YOLOv8, an advanced real-time object detection algorithm, to recognize license plates,
 count empty parking spots, and detect fire hazards"
               // ghLink="https://github.com/duonguwu/DetectionAppPNJ"
-              demoLink="http://neuralparking.online/"
+              demoLink="https://neuralparking.online/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -86,6 +86,15 @@ count empty parking spots, and detect fire hazards"
               title="Parking lot detection"
               description="The Parking Lot Detection system leverages YOLOv8 to train on datasets sourced from Roboflow specifically tailored for parking lots. By training on these datasets, the system can effectively discern between occupied and vacant parking spaces within a parking lot. Additionally, it is capable of accurately counting the number of available parking spots in real-time. This functionality enables efficient parking management by providing insights into parking space availability, thereby optimizing parking resource utilization and enhancing user convenience."
             />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://media.licdn.com/dms/image/D4D12AQEuTGj7eyRgtQ/article-cover_image-shrink_600_2000/0/1677594737628?e=2147483647&v=beta&t=A5U9W1Sb659ZRsAk0He9XRgGE4kUi0LXjt9VL2TZaXk"
+              isBlog={false}
+              title="Global Tech Company Layoffs Data Warehouse"
+              description="Integrated a global dataset of tech company layoffs into an OLAP data warehouse. Implemented ETL processes using SSIS, SSAS, and SSRS."
+              ghLink="https://github.com/duonguwu/IS217.O21_DataWarehouse"
+              />
           </Col>
         </Row>
       </Container>

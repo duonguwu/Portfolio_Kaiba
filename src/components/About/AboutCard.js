@@ -20,13 +20,6 @@ function AboutCard() {
             National University, HCMC. Passionate about technology and its
             applications, I'm on a journey to become a Backend Developer.
             <br />
-            My proficiency in Backend technologies includes Python, Java, and
-            PHP along with hands-on experience in frameworks like Flask, Spring
-            and Laravel. On the Frontend side, I've built a strong foundation in
-            ReactJS enabling me to create robust server-side applications.
-            Deployed a server using Docker, Nginx, and Docker Compose on an
-            Ubuntu VPS.
-            <br />
           </p>
 
           <p style={{ color: "rgb(155 126 172)" }}>

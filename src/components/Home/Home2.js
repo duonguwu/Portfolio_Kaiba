@@ -20,38 +20,45 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I'm a passionate Information Systems student with a strong
-              enthusiasm for programming, particularly delving into scientific
-              research on <b className="purple">Computer Vision.</b>, which can
-              be applied in various applications.
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> Python, PHP and JS </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">Computer Vision.</b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Flask or Laravel</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js</b>
-              </i>
-            </p>
+  I'm a senior Information Systems student at the University of Information Technology - Vietnam National University, HCMC, with a strong passion for AI/ML, Data Science, and backend development.
+  <br />
+  <br />
+  As a research student in the university’s lab, I have deep expertise in machine learning and deep learning, particularly in computer vision. My background includes developing and optimizing AI models to solve complex problems using cutting-edge deep learning algorithms.
+  <br />
+  <br />
+  I have strong skills in 
+  <i>
+    <b className="purple">Python, Java, and PHP</b>
+  </i>, 
+  and experience with frameworks like 
+  <i>
+    <b className="purple">Flask, Spring, and Laravel</b>
+  </i>. 
+  Additionally, I have a solid foundation in 
+  <i>
+    <b className="purple"> ReactJS </b>
+  </i> 
+  for creating robust server-side applications.
+  <br />
+  <br />
+  Looking forward, I aim to become a Data Engineer, where I can leverage my skills to design and optimize data pipelines. I have experience with 
+  <i>
+    <b className="purple">DevOps tools</b>
+  </i> 
+  like 
+  <i>
+    <b className="purple"> Docker</b>
+  </i>, 
+  <i>
+    <b className="purple"> nginx</b>
+  </i>, 
+  and 
+  <i>
+    <b className="purple"> Microsoft Azure </b>
+  </i> 
+  to deploy and manage applications efficiently. My goal is to ensure data integrity and accessibility for various analytical and machine learning purposes.
+</p>
+
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
